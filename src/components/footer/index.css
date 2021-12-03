@@ -1,0 +1,35 @@
+.footer{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    height: 50px;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border: solid rgba(0, 0, 0, 0.05);
+    background-color: white;
+}
+
+.footerLink{
+    position: relative;
+    left: 740px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.footerLinkedInLink{
+    height: 40px;
+}
+.footerGitHubLink{
+    height: 37px;
+}
+
+.footerText{
+    position: relative;
+    left: 700px;
+    font-size: 25px;
+    font-weight: 400;
+}
