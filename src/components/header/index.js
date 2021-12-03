@@ -6,9 +6,6 @@ const Header = () => {
         <>
             <ul className='headerList'>
                 <li onClick={() => {history.push('/')}}>
-                    <p>Home</p>
-                </li>
-                <li onClick={() => {history.push('/About')}}>
                     <p>About Me</p>
                 </li>
                 <li onClick={() => {history.push('/Contact')}}>
