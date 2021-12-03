@@ -1,0 +1,38 @@
+.contactPage{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactForm{
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    padding: 20px;
+}
+
+.contactForm input{
+    font-size: 25px;
+    padding: 5px;
+    outline: none;
+    border: none;
+}
+
+.contactForm button{
+    margin-top: 25px;
+    height: 50px;
+    cursor: pointer;
+}
+
+div.phoneInput{
+    position: relative;
+    /* top: 50px; */
+    width: 700px;
+}
+div.phoneInput input.phone_input{
+    width: 100%;
+    border-radius: 0;
+    height: 40px;
+}
