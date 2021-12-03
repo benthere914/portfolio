@@ -5,6 +5,7 @@ import Header from './components/header';
 import Footer from './components/footer';
 import Home from './components/home';
 import Contact from './components/contact';
+import Projects from './components/projects'
 require('dotenv').config();
 function App() {
 	return (
@@ -18,7 +19,7 @@ function App() {
                     <Contact/>
                 </Route>
                 <Route path='/Projects'>
-
+                    <Projects/>
                 </Route>
 			</Switch>
             <Footer/>
