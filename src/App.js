@@ -5,6 +5,7 @@ import Header from './components/header';
 import Footer from './components/footer';
 import Home from './components/home';
 import Contact from './components/contact';
+require('dotenv').config();
 function App() {
 	return (
 		<BrowserRouter>
