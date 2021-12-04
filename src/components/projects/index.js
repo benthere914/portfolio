@@ -15,7 +15,7 @@ const Projects = () => {
                 <img  alt='website screenshot' src='https://user-images.githubusercontent.com/8016326/144485593-94203d73-a28e-4cbd-b513-3bad523502c4.png'></img>
                 <p>Solo Project</p>
             </div>
-            <div onClick={() => {history.push('/Projects/discuss')}}>
+            <div onClick={() => {history.push('/Projects/Discuss')}}>
                 <h2>Discuss</h2>
                 <img alt='website screenshot' src='https://camo.githubusercontent.com/0fe6b6a1be0e560ed21011d3c68dc8d94a80f2e35e426b13f2ca3ef36965c2ca/68747470733a2f2f696d6775722e636f6d2f315730453547532e706e67'></img>
                 <p>Group Project</p>

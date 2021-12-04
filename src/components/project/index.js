@@ -17,6 +17,7 @@ const Project = () => {
                 <div className='screenshot'>
                     <img alt='website screenshot' src={data?.image}></img>
                 </div>
+                <h3>Created by: {data?.creators?.join(', ')}</h3>
             </div>
             <div className='technologies'>
                 {data?.technologies?.map((technology) => (
