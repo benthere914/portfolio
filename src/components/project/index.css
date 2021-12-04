@@ -1,0 +1,35 @@
+.projectPage{
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.screenshot{
+    width: 800px;
+    height: 500px;
+}
+
+.siteName{
+    text-align: center;
+    font-size: 45px;
+}
+.screenshot img{
+    width: 800px;
+    height: 500px;
+    cursor: pointer;
+}
+
+.technologies{
+    display: flex;
+    border: solid black;
+    width: 1000px;
+    justify-content: space-around;
+}
+.techType{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.techTypeName{
+    font-size: 45px;
+}
