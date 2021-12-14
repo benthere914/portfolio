@@ -1,8 +1,8 @@
 import './index.css'
 const Home = () => {
-    const aboutMeText = `I'm a Jesus lovin, Texas bred, southern man who loves to program.
-    I first started to write code when I was 8 years old. Way back then, my father started to teach me html,
-    which evolved into me learning javascript and then java.Now that I'm 24 years old, I have programmed in
+    const aboutMeText = `I'm an intellectual, puzzle-solver who loves to program.
+    I first started to write code when I was 8 years old. Back then, my father taught me html and even introduced me to data structures.
+    This evolved into me learning javascript and then java. Now that I'm 24 years old, I have programmed in
     several languages, frameworks and used all sorts of different technologies.`
     return (
         <>
