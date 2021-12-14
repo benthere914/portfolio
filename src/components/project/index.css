@@ -12,6 +12,7 @@
 .siteName{
     text-align: center;
     font-size: 45px;
+    cursor: pointer;
 }
 .screenshot img{
     width: 800px;
