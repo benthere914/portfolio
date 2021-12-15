@@ -7,6 +7,7 @@ import Home from './components/home';
 import Contact from './components/contact';
 import Projects from './components/projects';
 import Project from './components/project'
+import Technologies from './components/technologies';
 require('dotenv').config();
 function App() {
 	return (
@@ -24,6 +25,9 @@ function App() {
                 </Route>
                 <Route path='/Projects/:projectName'>
                     <Project/>
+                </Route>
+                <Route path='/Technologies'>
+                    <Technologies/>
                 </Route>
 			</Switch>
             <Footer/>
