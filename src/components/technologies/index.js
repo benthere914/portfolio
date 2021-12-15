@@ -9,7 +9,7 @@ const Technologies = () => {
         <>
             <div className='technologyGrid'>
                 {data?.map((tech) => (
-                    <div onClick={() => {history.push(`/${tech?.name}`)}}>
+                    <div onClick={() => {history.push(`/Technologies/${tech?.name}`)}}>
                         <p>{tech?.name}</p>
                         <div className='techImages'>
                             <img alt={tech?.alt1} src={tech?.src1}/>
