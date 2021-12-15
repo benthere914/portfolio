@@ -7,6 +7,8 @@ import Home from './components/home';
 import Contact from './components/contact';
 import Projects from './components/projects';
 import Project from './components/project'
+import Technologies from './components/technologies';
+import Technology from './components/technologies/technology'
 require('dotenv').config();
 function App() {
 	return (
@@ -15,18 +17,29 @@ function App() {
 			<Switch>
                 <Route path='/' exact={true}>
                     <Home/>
+                    <Footer/>
                 </Route>
                 <Route path='/Contact'>
                     <Contact/>
+                    <Footer/>
                 </Route>
                 <Route path='/Projects' exact={true}>
                     <Projects/>
+                    <Footer/>
                 </Route>
                 <Route path='/Projects/:projectName'>
                     <Project/>
+                    <Footer/>
+                </Route>
+                <Route path='/Technologies' exact={true}>
+                    <Technologies/>
+                    <Footer/>
+                </Route>
+                <Route path='/Technologies/:technology'>
+                    <Technology/>
                 </Route>
 			</Switch>
-            <Footer/>
+
 		</BrowserRouter>
 	);
 }

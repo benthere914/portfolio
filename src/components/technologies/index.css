@@ -1,0 +1,26 @@
+.technologyGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1000px;
+    gap: 50px;
+    position: relative;
+    left: 450px;
+}
+
+.technologyGrid > div{
+    border: solid 5px;
+    text-align: center;
+    height: 200px;
+    cursor: pointer;
+}
+
+.techImages{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: none;
+}
+
+.techImages img{
+    width: 150px;
+    height: 140px;
+}

@@ -14,6 +14,9 @@ const Header = () => {
                 <li onClick={() => {history.push('/Projects')}}>
                     <p>Projects</p>
                 </li>
+                <li onClick={() => {history.push('/Technologies')}}>
+                    <p>Technologies</p>
+                </li>
             </ul>
         </>
     )
